@@ -12,4 +12,7 @@ Program expects "sanat.txt" to be in working directory and each line to contain 
 Input 4x4 grid of words left to right, up-to-down order to the left side text box and press "Resolve".
 Found words are listed in the list under the button. Pressing any of the found words will display swipe
 order of the letters in the top right grid.
+
+Included sanat.txt is generated from Kotus Nykysuomen sanalista
+https://kotus.fi/sanakirjat/kielitoimiston-sanakirja/nykysuomen-sana-aineistot/nykysuomen-sanalista/
   
