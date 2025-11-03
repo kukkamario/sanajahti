@@ -19,7 +19,7 @@ bool UpperCasePlainTextEdit::eventFilter(QObject *obj, QEvent *event)
                * the current cursor position.
                */
             auto text = e->text();
-            if (!text.isEmpty() && text != '\x08') {
+            if (!text.isEmpty() && text != '\x08' && text != '\x7f') {
                 insertPlainText(text.toUpper());
                 return true;
             }
